@@ -1,0 +1,25 @@
+8668a269aded3c5afe896fb815d3a6b31ee09b9b93b5c61ebd504171c9f8cdd2
+
+
+curl "https://api.gilt.com/v1/products/1182714224/detail.json?apikey=8668a269aded3c5afe896fb815d3a6b31ee09b9b93b5c61ebd504171c9f8cdd2"
+
+
+https://api.gilt.com/v1/products/categories.json?apikey=8668a269aded3c5afe896fb815d3a6b31ee09b9b93b5c61ebd504171c9f8cdd2
+
+
+
+https://api.gilt.com/v1/products?q=bed&size=Be%3AKing&apikey=8668a269aded3c5afe896fb815d3a6b31ee09b9b93b5c61ebd504171c9f8cdd2
+
+
+import urllib2
+url = "https://api.gilt.com/v1/products/1182714224/detail.json?apikey=8668a269aded3c5afe896fb815d3a6b31ee09b9b93b5c61ebd504171c9f8cdd2"
+req = urllib2.Request(url)
+res = urllib2.urlopen(req)
+json = res.read()
+print json
+
+
+
+
+cat1 - Area
+cat2 - Home
